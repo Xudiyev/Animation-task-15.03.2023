@@ -1,0 +1,193 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+#general {
+    width: 100%;
+    height: 1007px;
+    position: relative;
+    overflow: hidden;
+}
+
+#road {
+    width: 100%;
+    height: 100%;
+    background-image: url('img/road.png');
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    position:absolute;
+    
+}
+
+#kiosk{
+    width: 400px;
+    height: 400px;
+    background-image: url('img//kiosk.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    position: absolute;
+    left: 30%;
+    top: 55%;
+}
+
+#first-man{
+    width: 200px;
+    height: 200px;
+    background-image: url('https://i.pinimg.com/originals/9b/a6/f5/9ba6f55988dd2f98028d4ab47c77f84b.gif');
+    background-size: contain;
+    background-repeat: no-repeat;
+    position: absolute;
+    bottom: 220px;
+    right: -400px;
+    animation-name: first-man;
+    animation-duration: 30s;
+   
+    
+}
+@keyframes first-man {
+    from{
+        right:-400px
+    }
+    to{
+      right: 100%;
+
+    }
+    
+}
+
+#second-man{
+    width: 200px;
+    height: 200px;
+    background-image: url('https://media4.giphy.com/media/H8Du9oNbnDOgD5IlSl/giphy.gif?cid=6c09b952mzy9g803wzn94143wdp19zpug5hmzru8znhqsmbg&rid=giphy.gif&ct=s');
+    background-size: contain;
+    background-repeat: no-repeat;
+    position: absolute;
+    bottom: 220px;
+    left: -400px;
+    animation-name: second-man;
+    animation-duration: 30s;
+   
+    
+}
+@keyframes  second-man {
+    from{
+        left:-400px
+    }
+    to{
+      left: 100%;
+
+    }
+    
+}
+
+#bird{
+    width: 100px;
+    height: 100px;
+    background-image: url('https://i.gifer.com/origin/8a/8acdeb337bdf67c098c997ce90b51cd2_w200.gif');
+    background-size: contain;
+    background-repeat: no-repeat;
+    position: absolute;
+   top: 100px;
+    left: -400px;
+    animation-name: bird;
+    animation-duration: 20s;
+   
+    
+}
+@keyframes  bird {
+    from{
+        left:-400px
+    }
+    to{
+      left: 100%;
+
+    }
+    
+}
+
+
+#sun{
+    width: 200px;
+    height: 200px;
+    background-image: url('img/sun.png');
+    background-size: contain;
+    position: absolute;
+    left: 15%;
+    top:10%;
+}
+.car1{
+    width: 500px;
+    height: 500px;
+    background-image: url('https://remyndow.com/wp-content/uploads/2020/11/METMIJMEE_AUTO_cover.gif');
+    background-repeat: no-repeat;
+    background-size: contain;
+    position: absolute;
+    bottom: -90px;
+    right: -500px;
+    animation-name: car1;
+    animation-duration: 10s;
+
+   
+}
+
+@keyframes car1 {
+    from{
+        right:-400px
+    }
+    to{
+      right: 100%;
+
+    }
+    
+}
+
+.car2{
+    width: 440px;
+    height: 440px;
+    background-image: url('img/police.png');
+    background-repeat: no-repeat;
+    background-size: contain;
+    position: absolute;
+    bottom:-110px;
+    right: -650px;
+    animation-name: car2;
+    animation-duration: 15s;
+}
+
+@keyframes car2 {
+    from{
+        right:-900px
+    }
+    to{
+      right: 100%;
+
+    }
+    
+}
+
+.car3{
+    width: 500px;
+    height: 500px;
+    background-image: url('https://media0.giphy.com/media/qe0yvzkMfUDTOVWXhx/giphy.gif?cid=6c09b952sel11ftbpwz2ca3kjcz5n1sndeef44mpyd2js6gt&rid=giphy.gif&ct=s');
+    background-repeat: no-repeat;
+    background-size: contain;
+    position: absolute;
+    bottom:-80px;
+    right: -1000px;
+    animation-name: car3;
+    animation-duration: 20s;
+}
+
+@keyframes car3 {
+    from{
+        right:-900px
+    }
+    to{
+      right: 100%;
+
+    }
+    
+}
+
